@@ -213,6 +213,26 @@ img{
     font-weight: 700;
 
 }
+
+
+.dy{
+    color: #864CFF;
+    font-size: 1.2em;
+    margin-left: 1.25rem;
+}
+
+.dm{
+    color: #864CFF;
+    font-size: 1.2em;
+    margin-left: 1.25rem;
+}
+.dd{
+    color: #864CFF;
+    font-size: 1.2em;
+    margin-left: 1.25rem;
+}
+
+
 }
 
 @media(max-width:800px){
@@ -268,6 +288,24 @@ margin-top: 4rem;
 }
 .input-section{
     margin-left: 5%;
+}
+
+
+.dy{
+    color: #864CFF;
+    font-size: 1em;
+    margin-left: 1rem;
+}
+
+.dm{
+    color: #864CFF;
+    font-size: 1em;
+    margin-left:1rem;
+}
+.dd{
+    color: #864CFF;
+    font-size: 1em;
+    margin-left:1rem;
 }
 
 }
