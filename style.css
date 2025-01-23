@@ -1,0 +1,273 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+body{
+    background-color: #F0F0F0;
+    padding-top: 6rem;
+}
+
+.input-section{
+    display: flex;
+    gap: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+}
+.label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-small;
+    font-weight: bold;
+    color: #919191;
+}
+
+.label2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-small;
+    font-weight: bold;
+    color: #919191;
+}
+
+.label3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-small;
+    font-weight: bold;
+    color: #919191;
+}
+.input-day{
+    width: 5.5rem;
+    height: 2.2rem;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: #919191;
+    padding: 1rem;
+    font-weight: bolder;
+    color: #919191;
+    font-size: large;
+
+    
+}
+.input-month{
+    width: 5.5rem;
+    height: 2.2rem;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: #919191;
+    padding: 1rem;
+    font-weight: bolder;
+    color: #919191;
+    font-size: large;
+
+    
+}
+.input-year{
+    width: 5.5rem;
+    height: 2.2rem;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: #919191;
+    padding: 1rem;
+    font-weight: bolder;
+    color: #919191;
+    font-size: large;
+
+    
+}
+.line{
+    display: flex;
+    gap: 1px;
+} 
+.hr{
+    background-color: #919191;
+    width: 80%;
+    height: 1px;
+    align-self: center;
+}
+.btn{
+    background-color: #864CFF;
+    border-radius: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     cursor: pointer;
+}
+img{
+    width: 50%;
+}
+.d-text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4rem;
+    font-weight: 900;
+
+}
+.parent{
+    width: 40%;
+    height: 40%;
+    background-color: #FFFFFF;
+    justify-self: center;
+        border-bottom-right-radius: 20%;
+    } 
+    .dy{
+        color: #864CFF;
+        font-size: 1.25em;
+        margin-left: 2rem;
+    }
+    
+    .dm{
+        color: #864CFF;
+        font-size: 1.25em;
+        margin-left: 2rem;
+    }
+    .dd{
+        color: #864CFF;
+        font-size: 1.25em;
+        margin-left: 2rem;
+    }
+    @media (max-width:905px){
+        .btn{
+            background-color: #864CFF;
+            border-radius: 50%;
+            width: 3.5rem;
+            height: 3.5rem;
+            display: flex;
+             justify-content: center;
+             align-items: center;
+              cursor: pointer; 
+             position: relative;
+             margin: auto;
+
+        }
+         
+.hr{
+    background-color: #919191;
+    width: 100%;
+    height: 1px;
+    align-self: center;
+    position: absolute;
+
+}
+
+.line{
+    display: flex;
+    gap: 1px;
+    position: relative;
+}  
+    }
+    @media(max-width:840px){
+        .input-section{
+            display: flex;
+            gap: 1rem;
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+            flex-wrap: wrap;
+            width: 80%;
+    }
+    
+.input-day{
+    width: 7.5rem;
+    height: 2.2rem;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: #919191;
+    padding: 1rem;
+    font-weight: bolder;
+    color: #919191;
+    font-size: large;
+
+    
+}
+.input-month{
+    width: 7.5rem;
+    height: 2.2rem;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: #919191;
+    padding: 1rem;
+    font-weight: bolder;
+    color: #919191;
+    font-size: large;
+
+    
+}
+.input-year{
+    width: 16rem;
+    height: 2.2rem;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: #919191;
+    padding: 1rem;
+    font-weight: bolder;
+    color: #919191;
+    font-size: large;
+    
+
+    
+}
+
+.d-text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-weight: 700;
+
+}
+}
+
+@media(max-width:800px){
+    .input-section{
+        flex-shrink: 20%;
+    }
+       
+.input-day{
+    width: 16rem;
+    height: 2.2rem;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: #919191;
+    padding: 1rem;
+    font-weight: bolder;
+    color: #919191;
+    font-size: large;
+    flex-shrink: 25%;
+
+    
+}
+.input-month{
+    width: 16rem;
+    height: 2.2rem;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: #919191;
+    padding: 1rem;
+    font-weight: bolder;
+    color: #919191;
+    font-size: large;
+
+    
+}
+.input-year{
+    width: 16rem;
+    height: 2.2rem;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: #919191;
+    padding: 1rem;
+    font-weight: bolder;
+    color: #919191;
+    font-size: large;
+
+}
+body{
+width: 723px;
+align-items: center;
+align-content: center;
+align-self: center;
+margin-top: 4rem;
+}
+.input-section{
+    margin-left: 5%;
+}
+
+}
