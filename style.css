@@ -241,7 +241,7 @@ img{
     }
        
 .input-day{
-    width: 16rem;
+    width: 24rem;
     height: 2.2rem;
     border-radius: 4px;
     border-width: 1px;
@@ -255,7 +255,7 @@ img{
     
 }
 .input-month{
-    width: 16rem;
+    width: 24rem;
     height: 2.2rem;
     border-radius: 4px;
     border-width: 1px;
@@ -268,7 +268,7 @@ img{
     
 }
 .input-year{
-    width: 16rem;
+    width: 24rem;
     height: 2.2rem;
     border-radius: 4px;
     border-width: 1px;
@@ -279,17 +279,44 @@ img{
     font-size: large;
 
 }
+.year {
+    margin-top: 3rem;
+}
+.month {
+    margin-top: 3rem;
+}
+.input-section{
+    margin-bottom: 4em;
+}
 body{
-width: 723px;
-align-items: center;
-align-content: center;
-align-self: center;
-margin-top: 4rem;
+margin: 0px;
+padding: 0px;
+margin-top: 0px;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+height:40rem ;
+padding-bottom: 0px;
+ overflow: hidden; 
+ padding-left: 0px;
+}
+.parent{
+    height: 100vh;
+    width: 80%;
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 0px;
+    padding-bottom: 0px;
+    overflow: hidden;
+
 }
 .input-section{
     margin-left: 5%;
 }
-
+.d-text{
+    margin-top: 4rem;
+}
 
 .dy{
     color: #864CFF;
