@@ -280,13 +280,13 @@ img{
 
 }
 .year {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
 }
 .month {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
 }
 .input-section{
-    margin-bottom: 3em;
+    margin-bottom: 2.5em;
 }
 body{
 margin: 0px;
@@ -315,7 +315,7 @@ padding-bottom: 0px;
     margin-left: 5%;
 }
 .d-text{
-    margin-top: 4rem;
+    margin-top: 1rem;
 }
 
 .dy{
